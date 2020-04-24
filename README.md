@@ -36,6 +36,10 @@ In order to examine the gradual improvement of the models in the different itera
 
 ![](images/Results_of_iterations.png)
 
+## More Information
+
+For more information about this project you can look at the Reports and Presentation directory
+
 
 
 
