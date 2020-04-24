@@ -10,7 +10,7 @@ Downsampling is achieved using a stride of 2 in the encoder’s convolutional la
 
 The layout of the final GAN architecture can be seen below:
 
-![]GAN%20Layout.png
+![]images/GAN_Layout.png
 
 
 Due to the fragile stability of GAN, regularization methods in both the architecture and the training function are non-trivial. In the training function, a threshold accuracy for the discriminator is set such that the discriminator is not trained when the accuracy is above the threshold. Noises are fed to the discriminator every 5th epoch to improve its generalizing capacity. The loss of the generator is modified to be a combination of binary cross entropy loss from the flipped labels and L1 loss from the original colored images.
